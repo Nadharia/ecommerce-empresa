@@ -38,57 +38,40 @@ El equipo está compuesto por 5 personas:
 
 ### 1. Clonar el repositorio
 
-```bash
 git clone https://github.com/tu-usuario/ecommerce-empresa.git
 cd ecommerce-empresa
-2. Cambiar a la rama dev
-bash
-Copiar
-Editar
+
+### 2. Cambiar a la rama dev
 git checkout dev
 git pull origin dev
-3. Crear una nueva rama para tu tarea
-bash
-Copiar
-Editar
+
+### 3. Crear una nueva rama para tu tarea
 git checkout -b feature/nombre-de-tu-tarea
-Ejemplo:
 
-bash
-Copiar
-Editar
-git checkout -b feature/login-frontend
-4. Realizar tus cambios en el código
-Trabajá normalmente, agregá archivos, funciones, componentes, etc.
+###4. Realizar tus cambios
+Trabajá normalmente en tu editor de código.
+No hay bash acá, solo editar archivos.
 
-5. Agregar y commitear tus cambios
-bash
-Copiar
-Editar
+### 5. Agregar y commitear tus cambios
 git add .
 git commit -m "✅ [AREA] descripción breve de la tarea"
 Ejemplos:
-
-bash
-Copiar
-Editar
 git commit -m "✅ [FRONTEND] Componente login terminado"
 git commit -m "🐛 [BACKEND] Fix en validación de productos"
-6. Subir tu rama a GitHub y crear Pull Request
-bash
-Copiar
-Editar
+
+### 6. Subir tu rama a GitHub
 git push origin feature/nombre-de-tu-tarea
-Luego, en GitHub:
 
-Vas a ver el botón “Compare & pull request”.
+### Luego, en GitHub:
 
-Asegurate de que el merge sea a dev, no a main.
+Hacés click en "Compare & pull request".
 
-Agregá título y descripción.
+Seleccionás dev como rama de destino.
 
-Asigná un revisor del equipo si es necesario.
+Agregás un título y descripción del cambio.
 
-Cuando esté aprobado, hacé el merge a dev.
+Asignás un revisor si corresponde.
+
+Esperás aprobación y hacés el merge a dev.
 
 
