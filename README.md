@@ -48,7 +48,7 @@ git pull origin dev
 ### 3. Crear una nueva rama para tu tarea
 git checkout -b feature/nombre-de-tu-tarea
 
-###4. Realizar tus cambios
+### 4. Realizar tus cambios
 Trabajá normalmente en tu editor de código.
 No hay bash acá, solo editar archivos.
 
