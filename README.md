@@ -55,7 +55,8 @@ No hay bash acá, solo editar archivos.
 ### 5. Agregar y commitear tus cambios
 git add .
 git commit -m "✅ [AREA] descripción breve de la tarea"
-Ejemplos:
+
+### Ejemplos:
 git commit -m "✅ [FRONTEND] Componente login terminado"
 git commit -m "🐛 [BACKEND] Fix en validación de productos"
 
