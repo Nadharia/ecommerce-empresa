@@ -5,6 +5,8 @@ import Main from './components/Main'
 
 import Lenis from '@studio-freight/lenis';
 import Nosotros from './components/Nosotros'
+import Flecha from './components/flecha.jsx';
+import Fondo from './components/Proyectos.jsx'
 
 function App() {
   useEffect(() => {
@@ -26,7 +28,9 @@ function App() {
     <div className="relative min-h-[200vh]">
       <Nav/>
       <Main />
+      <Fondo/>
       <Nosotros/>
+      <Flecha/>
     </div>
   );
 

@@ -17,12 +17,7 @@ const Main = () => {
                      max-w-md text-center">
         Solución con <span><span className="text-blue-400 font-bold">IT</span>egración</span>
       </h2>
-      <img
-        src="/img/flecha-abajo.png"
-        alt="Flecha hacia abajo"
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce w-10 filter invert cursor-pointer"
-        onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-      />
+      
     </div>
   );
 };
